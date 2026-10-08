@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ТАМС — Голосовая станция с ИИ на базе ESP32-S3-DevKitC-1</title>
-  <meta name="description" content="Голосовая станция с искусственным интеллектом на базе микроконтроллера ESP32-S3-DevKitC-1: облачный и локальный режимы, тренды, применение и загрузка приложения.">
+  <title>TAMS — AI Voice Station based on ESP32-S3-DevKitC-1</title>
+  <meta name="description" content="An AI-based voice station built on the ESP32-S3-DevKitC-1 microcontroller: cloud and local modes, trends, use cases and app download.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
@@ -25,27 +25,27 @@
   <!-- ========== HEADER ========== -->
   <header class="header">
     <div class="container header__inner">
-      <a href="#home" class="logo" aria-label="ТАМС">
+      <a href="#home" class="logo" aria-label="TAMS">
         <span class="logo__mark" aria-hidden="true"></span>
-        ТАМС
+        TAMS
       </a>
 
       <!-- CSS-only mobile menu toggle (replaces the original JS burger) -->
-      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Открыть меню">
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
       <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
 
       <nav class="nav" aria-label="Primary">
         <ul class="nav__list">
-          <li><a href="#home" class="nav__link is-active">Главная</a></li>
-          <li><a href="#about" class="nav__link">О проекте</a></li>
-          <li><a href="#trends" class="nav__link">Тренды</a></li>
-          <li><a href="#uses" class="nav__link">Применение</a></li>
-          <li><a href="#download" class="nav__link">Загрузить</a></li>
-          <li><a href="#contact" class="nav__link">Контакты</a></li>
+          <li><a href="#home" class="nav__link is-active">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#trends" class="nav__link">Trends</a></li>
+          <li><a href="#uses" class="nav__link">Use Cases</a></li>
+          <li><a href="#download" class="nav__link">Download</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
         <div class="nav__actions">
-          <a href="en.html" class="lang-switch" hreflang="en">ENG</a>
-          <a href="#download" class="btn btn--primary btn--sm nav__cta">Загрузить</a>
+          <a href="index.html" class="lang-switch" hreflang="ru">РУС</a>
+          <a href="#download" class="btn btn--primary btn--sm nav__cta">Download</a>
         </div>
       </nav>
     </div>
@@ -56,12 +56,12 @@
     <section class="hero" id="home">
       <div class="container hero__grid">
         <div class="hero__content">
-          <p class="label"><span class="label__dot"></span>Дипломный проект · ESP32-S3-DevKitC-1</p>
-          <h1 class="hero__title">Голосовая станция <span class="text-glow">с искусственным интеллектом</span></h1>
-          <p class="hero__sub">Создание голосовой станции с ИИ на базе ESP32-S3-DevKitC-1 — это популярный и хорошо документированный проект. В зависимости от ваших целей, вы можете выбрать один из двух основных путей: облачный (мощный, но требующий интернета) или локальный (приватный и быстрый, но с ограничениями).</p>
+          <p class="label"><span class="label__dot"></span>Diploma project · ESP32-S3-DevKitC-1</p>
+          <h1 class="hero__title">AI-powered <span class="text-glow">voice station</span></h1>
+          <p class="hero__sub">Creating a voice station with AI based on the ESP32-S3-DevKitC-1 is a popular and well-documented project. Depending on your goals, you can choose one of two main paths: cloud-based (powerful, but requires an internet connection) or local (private and fast, but with limitations).</p>
           <div class="hero__actions">
-            <a href="#download" class="btn btn--primary">Загрузить приложение <span class="btn__arrow" aria-hidden="true">→</span></a>
-            <a href="#about" class="btn btn--ghost">Подробнее</a>
+            <a href="#download" class="btn btn--primary">Download the App <span class="btn__arrow" aria-hidden="true">→</span></a>
+            <a href="#about" class="btn btn--ghost">Learn More</a>
           </div>
         </div>
 
@@ -76,17 +76,17 @@
             <span class="entity__eye entity__eye--r"></span>
             <span class="wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
           </div>
-          <div class="glass chip chip--top"><span class="chip__dot"></span> Слушаю…</div>
+          <div class="glass chip chip--top"><span class="chip__dot"></span> Listening…</div>
           <div class="glass chip chip--bottom"><strong>ESP32-S3</strong> Wi‑Fi · Bluetooth LE</div>
         </div>
       </div>
 
       <div class="container">
         <ul class="stats glass">
-          <li class="stats__item"><span class="stats__num">2</span><span class="stats__label">Режима: облако и локально</span></li>
-          <li class="stats__item"><span class="stats__num">240</span><span class="stats__label">МГц, двухъядерный CPU</span></li>
-          <li class="stats__item"><span class="stats__num">3 м</span><span class="stats__label">Захват голоса</span></li>
-          <li class="stats__item"><span class="stats__num">100%</span><span class="stats__label">Своими руками</span></li>
+          <li class="stats__item"><span class="stats__num">2</span><span class="stats__label">Modes: cloud & local</span></li>
+          <li class="stats__item"><span class="stats__num">240</span><span class="stats__label">MHz dual-core CPU</span></li>
+          <li class="stats__item"><span class="stats__num">3 m</span><span class="stats__label">Voice pickup range</span></li>
+          <li class="stats__item"><span class="stats__num">100%</span><span class="stats__label">DIY-built</span></li>
         </ul>
       </div>
     </section>
@@ -104,20 +104,20 @@
           </div>
           <div class="about__badge glass">
             <span class="about__badge-num">S3</span>
-            <span class="about__badge-text">Сердце<br>станции</span>
+            <span class="about__badge-text">The heart<br>of the station</span>
           </div>
         </div>
 
         <div class="about__content">
-          <p class="label">О проекте</p>
-          <h2 class="section__title">Своя приватная <span class="text-glow">голосовая станция</span></h2>
-          <p class="section__text">Голосовая станция с искусственным интеллектом на базе ESP32-S3-DevKitC-1 — это, по сути, недорогое, гибкое устройство для голосового взаимодействия, которое можно собрать своими руками. Его главная ценность в том, что он позволяет создавать приватные, кастомизируемые и локальные голосовые интерфейсы, не зависящие полностью от коммерческих экосистем вроде Alexa или Google.</p>
+          <p class="label">About the project</p>
+          <h2 class="section__title">Your own private <span class="text-glow">voice station</span></h2>
+          <p class="section__text">A voice station with artificial intelligence based on the ESP32-S3-DevKitC-1 is, in essence, an inexpensive, flexible device for voice interaction that you can assemble with your own hands. Its main value lies in the fact that it allows you to create private, customizable, and local voice interfaces that are not entirely dependent on commercial ecosystems like Alexa or Google.</p>
           <ul class="checklist">
-            <li>Недорогое устройство, которое можно собрать своими руками</li>
-            <li>Приватные и кастомизируемые голосовые интерфейсы</li>
-            <li>Независимость от коммерческих экосистем вроде Alexa или Google</li>
+            <li>An inexpensive device you can assemble yourself</li>
+            <li>Private, customizable voice interfaces</li>
+            <li>Independent of commercial ecosystems like Alexa or Google</li>
           </ul>
-          <a href="#trends" class="btn btn--ghost">Направления развития →</a>
+          <a href="#trends" class="btn btn--ghost">Key directions →</a>
         </div>
       </div>
     </section>
@@ -126,34 +126,34 @@
     <section class="section services" id="trends">
       <div class="container">
         <header class="section__head">
-          <p class="label">Направления развития</p>
-          <h2 class="section__title">Куда движутся <span class="text-glow">ИИ-устройства</span></h2>
-          <p class="section__text">Развитие идет по нескольким ключевым направлениям, которые постепенно стирают границы между дешевыми DIY-устройствами и полноценными ИИ-продуктами.</p>
+          <p class="label">Key directions</p>
+          <h2 class="section__title">Where AI devices <span class="text-glow">are heading</span></h2>
+          <p class="section__text">Development is proceeding along several key directions, which are gradually blurring the boundaries between inexpensive DIY devices and full-fledged AI products.</p>
         </header>
         <div class="services__grid services__grid--2">
           <article class="card glass">
             <span class="card__num">01</span>
             <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M7 18h10a4 4 0 000-8 6 6 0 00-11.6 1.5A3.5 3.5 0 007 18z"/><path d="M12 13v5M9.5 15.5L12 18l2.5-2.5"/></svg></div>
-            <h3 class="card__title">От облака к гибридным и локальным решениям</h3>
-            <p class="card__text">Это самый значимый тренд. Первые DIY-проекты полагались на отправку аудио в облако для распознавания и генерации ответа. Сейчас акцент смещается в сторону локальной обработки. Цель — снизить задержку, зависимость от интернета и повысить приватность, обрабатывая простые команды (например, «включи свет») прямо на ESP32. Будущее за гибридными системами, которые используют мощь облачных LLM только для сложных запросов.</p>
+            <h3 class="card__title">From pure cloud to hybrid and local</h3>
+            <p class="card__text">This is the most significant trend. The first DIY projects relied on sending audio to the cloud for recognition and response generation. Now the focus is shifting towards local processing. The goal is to reduce latency, dependence on the internet, and improve privacy by processing simple commands (for example, “turn on the light”) directly on the ESP32. The future lies in hybrid systems that use the power of cloud LLMs only for complex requests.</p>
           </article>
           <article class="card glass">
             <span class="card__num">02</span>
             <div class="card__icon"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/></svg></div>
-            <h3 class="card__title">Качество аудио и распознавания речи</h3>
-            <p class="card__text">DIY-проекты часто страдают от шума и плохого распознавания. Для решения этой проблемы появляются специализированные аппаратные решения. Например, ReSpeaker Lite использует отдельный аудиопроцессор XMOS для шумоподавления, эхоподавления и захвата голоса с расстояния до 3 метров. Интеграция таких модулей с ESP32-S3 — это прямой путь к созданию устройств, которые работают так же хорошо, как коммерческие колонки.</p>
+            <h3 class="card__title">Better audio and speech recognition</h3>
+            <p class="card__text">DIY projects often suffer from noise and poor recognition. Specialized hardware solutions are emerging to solve this problem. For example, ReSpeaker Lite uses a separate XMOS audio processor for noise reduction, echo cancellation and voice capture from a distance of up to 3 meters. Integrating such modules with the ESP32-S3 is a direct way to create devices that work just as well as commercial speakers.</p>
           </article>
           <article class="card glass">
             <span class="card__num">03</span>
             <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
-            <h3 class="card__title">За пределами «просто ассистента»</h3>
-            <p class="card__text">ESP32-S3 способен не только на голос. Благодаря поддержке камер и дисплеев, он может стать основой для мультимодальных устройств, которые видят и показывают. В проекте с роботом-космонавтом использовался OLED-экран для отображения анимации в зависимости от режима работы. В будущем такие устройства смогут не только слышать, но и видеть (например, распознавать лица или жесты), и управлять физическими действиями (роботами, манипуляторами).</p>
+            <h3 class="card__title">Beyond a “simple assistant”</h3>
+            <p class="card__text">ESP32-S3 is capable of more than just voice. Thanks to its support for cameras and displays, it can become the foundation for multimodal devices that see and show. In the project involving a robot astronaut, an OLED screen was used to display animation depending on the operating mode. In the future, such devices will be able not only to hear but also to see (for example, to recognize faces or gestures) and to control physical actions (robots, manipulators).</p>
           </article>
           <article class="card glass">
             <span class="card__num">04</span>
             <div class="card__icon"><svg viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 22V12M21 7l-9 5-9-5"/></svg></div>
-            <h3 class="card__title">Простая разработка и низкий порог входа</h3>
-            <p class="card__text">Появляется все больше «коробочных» решений и платформ, которые скрывают сложность программирования. ESP Private Agents позволяет генерировать прошивку прямо из веб-интерфейса. Проекты вроде ElatoAI предоставляют готовую серверную инфраструктуру для подключения к десяткам голосовых моделей. Это означает, что в будущем создание собственного ИИ-ассистента станет таким же простым, как настройка умной лампочки.</p>
+            <h3 class="card__title">Simpler development, lower entry barrier</h3>
+            <p class="card__text">There are an increasing number of “out-of-the-box” solutions and platforms that hide the complexity of programming. ESP Private Agents allows you to generate firmware directly from a web interface. Projects like ElatoAI provide ready-made server infrastructure for connecting to dozens of voice models. This means that in the future, creating your own AI assistant will be as simple as setting up a smart light bulb.</p>
           </article>
         </div>
       </div>
@@ -163,26 +163,26 @@
     <section class="section results" id="uses">
       <div class="container">
         <header class="section__head">
-          <p class="label">Применение</p>
-          <h2 class="section__title">Где станция <span class="text-glow">приносит пользу</span></h2>
+          <p class="label">Use cases</p>
+          <h2 class="section__title">Where the station <span class="text-glow">makes a difference</span></h2>
         </header>
         <div class="results__grid results__grid--3">
           <article class="metric glass">
             <div class="metric__top"><span class="metric__num">01</span><div class="card__icon card__icon--sm"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></div></div>
-            <h3 class="metric__title">Умный дом без облака</h3>
-            <p class="metric__text">Это одно из главных направлений. Вы можете создать голосового ассистента, который будет управлять освещением, климатом или другими устройствами.</p>
+            <h3 class="metric__title">Smart home without the cloud</h3>
+            <p class="metric__text">This is one of the main directions. You can create a voice assistant that controls lighting, climate or other devices.</p>
             <div class="progress"><span style="--p: 90%"></span></div>
           </article>
           <article class="metric glass">
             <div class="metric__top"><span class="metric__num">02</span><div class="card__icon card__icon--sm"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg></div></div>
-            <h3 class="metric__title">Кастомные ассистенты</h3>
-            <p class="metric__text">Вместо того чтобы быть привязанным к одному «характеру» Alexa, вы можете запрограммировать ассистента с уникальной личностью.</p>
+            <h3 class="metric__title">Custom voice assistants</h3>
+            <p class="metric__text">Instead of being tied to Alexa’s single “personality”, you can program an assistant with a unique personality.</p>
             <div class="progress"><span style="--p: 75%"></span></div>
           </article>
           <article class="metric glass">
             <div class="metric__top"><span class="metric__num">03</span><div class="card__icon card__icon--sm"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="M12 7v6M8 21l4-8 4 8M7 10h10"/></svg></div></div>
-            <h3 class="metric__title">Устройства для доступности</h3>
-            <p class="metric__text">Голосовой ассистент может помочь людям с ограниченными возможностями управлять окружением с помощью голоса.</p>
+            <h3 class="metric__title">Accessibility devices</h3>
+            <p class="metric__text">A voice assistant can help people with disabilities control their surroundings using their voice.</p>
             <div class="progress"><span style="--p: 82%"></span></div>
           </article>
         </div>
@@ -193,8 +193,8 @@
     <section class="section works" id="download">
       <div class="container">
         <header class="section__head">
-          <p class="label">Загрузка</p>
-          <h2 class="section__title">Приложение для <span class="text-glow">вашего телефона</span></h2>
+          <p class="label">Download</p>
+          <h2 class="section__title">The app for <span class="text-glow">your phone</span></h2>
         </header>
         <div class="works__list">
           <article class="work glass">
@@ -203,10 +203,10 @@
               <span class="work__icon"><svg viewBox="0 0 24 24"><path d="M6 11a6 6 0 0112 0z"/><path d="M8 4.5l1.3 2.2M16 4.5l-1.3 2.2"/><circle cx="10" cy="8.6" r=".5"/><circle cx="14" cy="8.6" r=".5"/><rect x="6" y="12.5" width="12" height="7.5" rx="1.5"/><path d="M4 13v5M20 13v5M10 20v2M14 20v2"/></svg></span>
             </div>
             <div class="work__body">
-              <p class="label label--muted">ТАМС · App</p>
-              <h3 class="work__title">Загрузка для Android</h3>
-              <p class="work__text">Управляйте голосовой станцией со смартфона на Android.</p>
-              <a href="#download" class="btn btn--primary btn--sm work__btn">Загрузить <span class="btn__arrow" aria-hidden="true">↓</span></a>
+              <p class="label label--muted">TAMS · App</p>
+              <h3 class="work__title">Download for Android</h3>
+              <p class="work__text">Control your voice station from an Android smartphone.</p>
+              <a href="#download" class="btn btn--primary btn--sm work__btn">Download <span class="btn__arrow" aria-hidden="true">↓</span></a>
             </div>
           </article>
           <article class="work glass">
@@ -215,10 +215,10 @@
               <span class="work__icon"><svg viewBox="0 0 24 24"><path d="M16 13c0-2.5 2-3.2 2-3.2A4.4 4.4 0 0014.5 8c-1.5 0-2 .8-2.9.8S9.9 8 8.6 8C6.5 8 4.5 9.8 4.5 13c0 3.5 2.6 8 4.5 8 1 0 1.4-.6 2.7-.6s1.6.6 2.7.6c1.4 0 2.8-2.4 3.4-4-2.3-1-1.8-4-1.8-4z"/><path d="M12.5 5.5C13 4 14.4 3 15.5 3c.2 1.5-.8 3.2-2.5 3.5"/></svg></span>
             </div>
             <div class="work__body">
-              <p class="label label--muted">ТАМС · App</p>
-              <h3 class="work__title">Загрузка для iOS</h3>
-              <p class="work__text">Управляйте голосовой станцией с iPhone.</p>
-              <a href="#download" class="btn btn--primary btn--sm work__btn">Загрузить <span class="btn__arrow" aria-hidden="true">↓</span></a>
+              <p class="label label--muted">TAMS · App</p>
+              <h3 class="work__title">Download for iOS</h3>
+              <p class="work__text">Control your voice station from your iPhone.</p>
+              <a href="#download" class="btn btn--primary btn--sm work__btn">Download <span class="btn__arrow" aria-hidden="true">↓</span></a>
             </div>
           </article>
         </div>
@@ -230,10 +230,10 @@
       <div class="container">
         <div class="cta__box">
           <span class="cta__glow" aria-hidden="true"></span>
-          <p class="label">Остались вопросы?</p>
-          <h2 class="cta__title">Напишите <span class="text-glow">нам</span></h2>
-          <p class="cta__text">Расскажем о проекте, сборке станции и работе приложения.</p>
-          <a href="mailto:info@tams.ru?subject=Заявка с сайта" class="btn btn--primary btn--lg">Связаться <span class="btn__arrow" aria-hidden="true">→</span></a>
+          <p class="label">Have questions?</p>
+          <h2 class="cta__title">Write <span class="text-glow">to us</span></h2>
+          <p class="cta__text">We’ll tell you about the project, building the station and how the app works.</p>
+          <a href="mailto:info@tams.ru?subject=Website request" class="btn btn--primary btn--lg">Contact Us <span class="btn__arrow" aria-hidden="true">→</span></a>
         </div>
       </div>
     </section>
@@ -243,24 +243,24 @@
   <footer class="footer" id="contact">
     <div class="container footer__grid footer__grid--4">
       <div class="footer__brand">
-        <a href="#home" class="logo"><span class="logo__mark" aria-hidden="true"></span>ТАМС</a>
-        <p class="footer__text">Голосовая станция с искусственным интеллектом на базе микроконтроллера ESP32-S3-DevKitC-1.</p>
+        <a href="#home" class="logo"><span class="logo__mark" aria-hidden="true"></span>TAMS</a>
+        <p class="footer__text">An AI-based voice station built on the ESP32-S3-DevKitC-1 microcontroller.</p>
       </div>
 
-      <nav class="footer__col" aria-label="Навигация">
-        <h4 class="footer__title">Навигация</h4>
+      <nav class="footer__col" aria-label="Navigation">
+        <h4 class="footer__title">Navigation</h4>
         <ul>
-          <li><a href="#home">Главная</a></li>
-          <li><a href="#about">О проекте</a></li>
-          <li><a href="#trends">Тренды</a></li>
-          <li><a href="#uses">Применение</a></li>
-          <li><a href="#download">Загрузить</a></li>
-          <li><a href="#contact">Контакты</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#trends">Trends</a></li>
+          <li><a href="#uses">Use Cases</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
       <address class="footer__col">
-        <h4 class="footer__title">Контакты</h4>
+        <h4 class="footer__title">Contacts</h4>
         <ul>
           <li><a href="tel:+79991234567">+7 (999) 123-45-67</a></li>
           <li><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
@@ -269,19 +269,19 @@
       </address>
 
       <div class="footer__col footer__news">
-        <h4 class="footer__title">Мы в соцсетях</h4>
-        <ul class="socials" aria-label="Мы в соцсетях">
+        <h4 class="footer__title">Social media</h4>
+        <ul class="socials" aria-label="Social media">
           <li><a href="https://mail.google.com/" target="_blank" rel="noopener" aria-label="Email"><img src="assets/img/email.svg" alt=""></a></li>
           <li><a href="https://vk.com" target="_blank" rel="noopener" aria-label="VK"><img src="assets/img/vk.svg" alt=""></a></li>
         </ul>
-        <h4 class="footer__title footer__title--gap">Написать нам</h4>
-        <p class="footer__text">Ответим на вопросы о проекте и приложении.</p>
-        <a href="mailto:info@tams.ru?subject=Заявка с сайта" class="btn btn--ghost btn--sm">Связаться</a>
+        <h4 class="footer__title footer__title--gap">Write to us</h4>
+        <p class="footer__text">We’ll answer your questions about the project and the app.</p>
+        <a href="mailto:info@tams.ru?subject=Website request" class="btn btn--ghost btn--sm">Contact Us</a>
       </div>
     </div>
 
     <div class="container footer__bottom">
-      <p>© 2026 ТАМС. Все права защищены.</p>
+      <p>© 2026 TAMS. All rights reserved.</p>
       <p><a href="index.html" hreflang="ru">РУС</a> · <a href="en.html" hreflang="en">ENG</a></p>
     </div>
   </footer>
