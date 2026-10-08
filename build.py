@@ -20,9 +20,9 @@ def icon(name):
 T = {
  "ru": dict(
   file="index.html", lang="ru", other_file="en.html", other_label="ENG",
-  title="ТАМС — Голосовая станция с ИИ на базе ESP32-S3-DevKitC-1",
+  title="НОКТИС — Голосовая станция с ИИ на базе ESP32-S3-DevKitC-1",
   desc="Голосовая станция с искусственным интеллектом на базе микроконтроллера ESP32-S3-DevKitC-1: облачный и локальный режимы, тренды, применение и загрузка приложения.",
-  logo="ТАМС",
+  logo="НОКТИС",
   nav=["Главная", "О проекте", "Тренды", "Применение", "Загрузить", "Контакты"],
   cta_nav="Загрузить", menu="Открыть меню",
   eyebrow="Дипломный проект · ESP32-S3-DevKitC-1",
@@ -63,9 +63,9 @@ T = {
  ),
  "en": dict(
   file="en.html", lang="en", other_file="index.html", other_label="РУС",
-  title="TAMS — AI Voice Station based on ESP32-S3-DevKitC-1",
+  title="NOCTIS — AI Voice Station based on ESP32-S3-DevKitC-1",
   desc="An AI-based voice station built on the ESP32-S3-DevKitC-1 microcontroller: cloud and local modes, trends, use cases and app download.",
-  logo="TAMS",
+  logo="NOCTIS",
   nav=["Home", "About", "Trends", "Use Cases", "Download", "Contact"],
   cta_nav="Download", menu="Open menu",
   eyebrow="Diploma project · ESP32-S3-DevKitC-1",
